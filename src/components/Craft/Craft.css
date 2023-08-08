@@ -1,0 +1,94 @@
+.craftbanner{
+    display: flex;
+    background: #f8ebe6;
+    height: 221px;
+    padding-bottom: 18px;
+}
+.craftbannertext{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    margin-right:35px;
+}
+
+.craftbannerh1{
+    font-size: 32px;
+    font-weight: 100;
+    color: #222;
+    font-family: "Guardian-EgypTT",Charter,"Charter Bitstream",Cambria,"Noto Serif Light","Droid Serif",Georgia,serif;;;
+}
+.craftbannerlist{
+    font-size: 14px;
+    padding-bottom: 2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.craftbannerAll{
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.craftbannerlittle{
+    font-size: 13px;
+    font-family: "Graphik Webfont",-apple-system,"Helvetica Neue","Droid Sans",Arial,sans-serif;
+}
+
+.craftbannerimages{
+    display: grid;
+    grid-template-columns:repeat(8,107px);
+    gap:8px;
+    height: 303px;
+    margin-top: 38px;
+    margin-left:0px;
+}
+.craftbannerimage{
+    display: grid;
+    height: 106px;
+    width: 106px;
+    border-radius: 50%;
+    border: 1px solid rgba(34,34,34,0.3);
+   
+}
+.craftbannerimage p{
+    font-size: 13px;
+    font-family: "Graphik Webfont",-apple-system,"Helvetica Neue","Droid Sans",Arial,sans-serif;
+    padding-top: 20px;
+    padding-left: 2px; 
+}
+.craftpart2text{
+    display: block;
+    padding: 0px 18px;
+    
+}
+.craftpart2h2{
+    margin-top: 26px;
+    font-size: 32px;
+    font-family: "Graphik Webfont",-apple-system,"Helvetica Neue","Droid Sans",Arial,sans-serif;
+    font-weight: 100;
+    line-height: 36px;
+    color:#222;
+}
+.craftpart2input{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.craftpart2btn1{
+    padding: 3px 15px 3px 15px;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fff;
+}
+.craftpart2btn2{
+    background-color: #fff;
+    padding: 3px 15px 3px 15px;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.craftpart2images{
+    display: grid;
+    grid-template-columns: repeat(4,293px);
+    gap:20px;
+   
+  }
+ 

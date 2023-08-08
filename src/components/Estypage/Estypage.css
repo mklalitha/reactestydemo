@@ -1,0 +1,111 @@
+.estybannar{
+    background-color: #fddcd8;
+    color: #222;
+    height: 174px;
+}
+.estybannarheading{
+    color: #222;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 18px ;
+   font-family: "Guardian-EgypTT",Charter,"Charter Bitstream",Cambria,"Noto Serif Light","Droid Serif",Georgia,serif;;
+}
+
+.estybannarimage{
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(6,114px);
+    gap:60px;
+    padding-left:150px;
+    padding-right:-200px;
+    color: #222;
+   
+   
+    
+}
+.display-image{
+    display: grid;
+    height: 114px;
+    width: 114px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    margin-top:50px;
+    position: absolute;
+    z-index: 999;
+} 
+
+.display-title{
+    font-size: 16px;
+    margin-top:170px;
+    margin-bottom:100px;
+    padding-left: 15px;
+    position: absolute;
+    z-index: 999;
+}
+.next{
+    margin-bottom: 100px;
+    border-bottom: 1px;
+}
+.display-image:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    background-origin: 1px solid #222;
+ }
+ .display-title :hover{
+        text-decoration: underline;
+        
+    }
+.dealbannerpart{
+    background-color: #fff;
+    color: #222;
+}
+.dealbannerparttitle{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    margin-bottom: 12px;
+}
+.dealbannerh2{
+    font-family: "Graphik Webfont",-apple-system,"Helvetica Neue","Droid Sans",Arial,sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    padding-left: 40px;
+   
+}
+.dealbannerparttitle a{
+    text-decoration: none;
+    padding-right: 40px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.dealbannerimages{
+    display: grid;
+    grid-template-columns: repeat(6,182px);
+    gap:20px;
+    height: 303px;
+    margin-left: 25px;
+   
+   
+}
+ .dealbannerimage{
+    height: 280px;
+    border: 1px solid rgba(34,34,34,0.3);
+    border-radius: 20px !important;
+} 
+.dealbannertext1{
+    margin-bottom: 6px;
+    font-size: 13px;
+    font-family: "Graphik Webfont",-apple-system,"Helvetica Neue","Droid Sans",Arial,sans-serif;
+    font-weight: 300;
+    padding-left: 9px;
+    text-align: left;
+}
+
+.dealbannertext2{
+    margin-bottom: 6px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 9px;
+    text-align: left;
+}

@@ -1,0 +1,214 @@
+@import url('https://fonts.cdnfonts.com/css/graphik');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+/* html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+} */
+body {
+    color: #222;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Segoe UI", "Helvetica", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.header1 {
+    display: flex;
+    position: relative;
+    margin: 0 10px;
+    padding: 12px 0px;
+    background: #fff;
+    /* box-shadow: 0 1px 4px rgba(0, 0, 0, .1), 0 0 0 1px rgba(0, 0, 0, .05); */
+    z-index: 1000;
+    /* min-width: 1263px; */
+    height: 72px;
+    border: none;
+}
+
+.header1 .logo {
+    width: 80px;
+    height: 40px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+.header1 .search-box {
+    display: flex;
+    width: 865px;
+    height: 48px;
+}
+
+.header1 .search-query {
+    position: relative;
+    border-width: 2px;
+    border-color: #222;
+    padding-left: 18px;
+    border-top-left-radius: 96px;
+    border-bottom-left-radius: 96px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.05);
+    flex: 1;
+    font-size: 16px;
+}
+
+.header1 .search-icon {
+    background: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    text-align: left;
+    outline: none;
+    text-decoration: none;
+    border: rgba(0, 0, 0, 0);
+    position: relative;
+    padding-right: 21px;
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    height: 48px;
+    color: #222;
+    font-weight: bold;
+    font-size: 16px;
+    white-space: nowrap;
+    z-index: 10;
+    transition: border 200ms ease-out, color 200ms ease-out;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 96px;
+    border-bottom-right-radius: 96px;
+    border: 2px solid #222;
+    border-left: 0;
+    background-color: rgba(0, 0, 0, 0.05 );
+
+}
+
+.nav-container {
+    display: block;
+    width: 222px;
+    height: 48px;
+    position: relative;
+  
+}
+
+.nav-container ul {
+    list-style: none;
+    padding-left: 0;
+    align-items: center !important;
+
+}
+
+
+.nav-container ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.nav-container ul li .sign{
+    margin-left: -20px;
+
+}
+.nav-container ul li .header-signin{
+    border: none;
+    background: transparent;
+    
+
+}
+.nav-container ul li .header-signin a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-container ul li #heart-icon{
+   font-size: 24px;
+    }
+.nav-container ul li .tooltip {
+
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.nav-container ul li .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 3px 0;
+    position: absolute;
+    z-index: 1;
+    top: 95%;
+    left: 86%;
+    margin-left: -60px;
+
+}
+
+.nav-container ul li .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+.nav-container ul li .tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.header2 {
+    height: 34px;
+    cursor: pointer;
+    display: flex;
+   align-items: center;
+    margin-top: -10px;
+    padding-left: 20px;
+    font-size: 14px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 2px solid rgba(34, 34, 34, .15);
+}
+
+.header2 .Categories-list li {
+
+    margin-top: 4px;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+.header2 ul li a {
+    text-decoration: none;
+    margin-top: 4px;
+    color: #222;
+    font-weight: 400;
+    font-family: 'Graphik', sans-serif;
+    padding: 6px;
+
+
+}
+.tooltip svg{
+    position: relative;
+}
+.cart-length{
+   position: absolute;
+   background-color:orangered;
+   height: 20px;
+   width: 20px;
+   border-radius: 50%;
+   left:20px;
+   bottom:-30%;
+   color: #222 !important;
+   text-align: center;
+  
+   }
+

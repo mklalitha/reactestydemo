@@ -1,0 +1,65 @@
+@import url(//db.onlinewebfonts.com/c/08d78e70bb7fc6ae5cdd413384b799fb?family=Guardian+Egyptian+Web+Bold);
+.textbanner{
+    position: relative;
+    background-color: #faa129;
+    height: 267px;
+    color: #222;
+    font-family: "Guardian-EgypTT",Charter,"Charter Bitstream",Cambria,"Noto Serif Light","Droid Serif",Georgia,serif;
+}
+.mainbannertitle1{
+    font-size: 52px;
+    line-height: 56px;
+    padding-bottom: 12px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 30px;
+}
+.mainbannertitle2{
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    font-family: "Graphik Webfont",-apple-system,"Helvetica Neue","Droid Sans",Arial,sans-serif;
+    padding-bottom: 12px;
+    
+}
+.mainbannertitle3{
+    font-size: 14px;
+    text-align: center;
+    font-family: "Graphik Webfont",-apple-system,"Helvetica Neue","Droid Sans",Arial,sans-serif;
+    padding-bottom: 18px;
+    font-weight: 100;
+    
+}
+.imagebanner{
+    display: grid;
+    grid-template-columns: repeat(6,160px);
+    gap:50px;
+    margin:9px 8.78px 12px 9px;
+    row-gap: 230px; 
+    padding-left: 10px;
+    
+}
+.product-image{
+    display: grid;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    margin-top:-100px;
+    position: absolute;
+    z-index: 999;
+} 
+.product-title{
+    font-size: 14px;
+    font-family: "Graphik Webfont",-apple-system,"Helvetica Neue","Droid Sans",Arial,sans-serif;
+    font-weight: bold;
+    margin-top:70px;
+    padding-bottom: 100px;
+    padding-left: 5px;
+    position: absolute;
+    z-index: 999;
+}
+.next{
+    margin-bottom: 100px;
+    border-bottom: 1px;
+}
